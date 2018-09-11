@@ -1,0 +1,72 @@
+{
+    "_links": {
+      "self": "https://api.twitch.tv/kraken/streams/featured?geo=US&lang=en&limit=25",
+      "next": "https://api.twitch.tv/kraken/streams/featured?geo=US&lang=en&limit=25&offset=25"
+    },
+    "featured": [
+      {
+        "image": "https://s.jtvnw.net/jtv_user_pictures/hosted_images/Barny_fp_may2018",
+        "priority": 6,
+        "scheduled": true,
+        "sponsored": false,
+        "text": "<p>Welcome to heck, we have chill vibes and mischief. Come in and be blessed.</p>",
+        "title": "Barny's Ultra Chill Zone",
+        "stream": {
+          "_id": 28708969392,
+          "game": "Stardew Valley",
+          "viewers": 2385,
+          "video_height": 720,
+          "average_fps": 60,
+          "delay": 0,
+          "created_at": "2018-05-15T18:59:39Z",
+          "is_playlist": false,
+          "stream_type": "live",
+          "preview": {
+            "small": "https://static-cdn.jtvnw.net/previews-ttv/live_user_barny-80x45.jpg",
+            "medium": "https://static-cdn.jtvnw.net/previews-ttv/live_user_barny-320x180.jpg",
+            "large": "https://static-cdn.jtvnw.net/previews-ttv/live_user_barny-640x360.jpg",
+            "template": "https://static-cdn.jtvnw.net/previews-ttv/live_user_barny-{width}x{height}.jpg"
+          },
+          "channel": {
+            "mature": false,
+            "partner": false,
+            "status": "❄ Welcome to Honey Rose Farm! Barny + Jaynee's first time co-op",
+            "broadcaster_language": "en",
+            "display_name": "Barny",
+            "game": "Stardew Valley",
+            "language": "en",
+            "_id": 36974451,
+            "name": "barny",
+            "created_at": "2012-10-17T01:46:19Z",
+            "updated_at": "2018-05-15T20:07:36Z",
+            "delay": null,
+            "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/barny-profile_image-e80a37bcf03f4df5-300x300.png",
+            "banner": null,
+            "video_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/barny-channel_offline_image-d119fcf7bda148fd-1920x1080.png",
+            "background": null,
+            "profile_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/barny-profile_banner-0d5126a93575d102-480.png",
+            "profile_banner_background_color": "",
+            "url": "https://www.twitch.tv/barny",
+            "views": 4605865,
+            "followers": 191446,
+            "_links": {
+              "self": "https://api.twitch.tv/kraken/channels/barny",
+              "follows": "https://api.twitch.tv/kraken/channels/barny/follows",
+              "commercial": "https://api.twitch.tv/kraken/channels/barny/commercial",
+              "stream_key": "https://api.twitch.tv/kraken/channels/barny/stream_key",
+              "chat": "https://api.twitch.tv/kraken/chat/barny",
+              "features": "https://api.twitch.tv/kraken/channels/barny/features",
+              "subscriptions": "https://api.twitch.tv/kraken/channels/barny/subscriptions",
+              "editors": "https://api.twitch.tv/kraken/channels/barny/editors",
+              "teams": "https://api.twitch.tv/kraken/channels/barny/teams",
+              "videos": "https://api.twitch.tv/kraken/channels/barny/videos"
+            }
+          },
+          "_links": {
+            "self": "https://api.twitch.tv/kraken/streams/barny"
+          }
+        }
+      }
+            
+    ]
+  }

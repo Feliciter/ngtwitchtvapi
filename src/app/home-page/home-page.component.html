@@ -1,0 +1,21 @@
+
+<div *ngIf="searchResults; else elseBlock">
+  
+    <ul class="list">
+      <li class="list_item" *ngFor="let result of searchResults.featured index as i;">
+        <a [href]="result.stream.channel.url">
+          <img class="avatar" [src]="result.image" /> 
+          <h4 class="title">{{result.title}} 
+     
+          </h4>
+        </a> 
+         <p class="description"> {{result.stream.game}}</p> 
+         <a [href]="result.stream.channel.url">
+          <img  [src]="result.stream.preview.small" />            
+          </a> 
+          <p class="description"> {{result.stream.channel.view}}</p>  
+
+      </li>
+    </ul>
+  </div>
+  <ng-template #elseBlock>Loading...</ng-template>
